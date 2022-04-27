@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body">
+    <nav class="hilang-1">
+        <ul>
+            <li class="nav-left"><img src="images\logo.svg"></li>
+                <div class="navbar">
+                    <div class="navbar-remake">
+                        <li class="nav-left dropdown-1">
+                            <a href="#" class="hover-font">Feature <span class="bottom-arrow">...</span></a>
+                            <div class="dropdown-content">
+                                <a href="#"><img src="./images/icon-todo.svg">  To Do List</a>
+                                <a href="#"><img src="./images/icon-calendar.svg">  Calender</a>
+                                <a href="#"><img src="./images/icon-reminders.svg">  Reminders</a>
+                                <a href="#"><img src="./images/icon-planning.svg">   Planning</a>
+                            </div>
+                        </li>
+                        <li class="nav-left dropdown-1">
+                            <a href="#" class="hover-font">Company <span class="bottom-arrow">...</span></a>
+                            <div class="dropdown-content">
+                                <a href="#"> History</a>
+                                <a href="#">Our Team</a>
+                                <a href="#">Blog</a>
+                            </div>
+                        </li>
+                        <li class="nav-left"><a href="#" class="hover-font">Careers</a></li>
+                        <li class="nav-left"><a href="#" class="hover-font">About</a></li>
+                    </div>
+
+                <li class="nav-right"><a href="#" class="hover-font register">Register</a></li>
+                <li class="nav-right"><a href="#" class="hover-font">Login</a></li>
+            </div>
+        </ul>
+        <div class="clearfix"></div>
+    </nav>
+
+    <!------------------------->
+    <nav class="hilang">
+        <div class="" style="padding:15px;">
+            <div class="float-left"><img src="./images/logo.svg" width="70px"></div>
+            <div class="float-right">
+                <div onclick="open1()" class="menu-icon"><img src="./images/icon-menu.svg"></div>
+            </div>
+        </div>
+        <div id="sideplan" class="float-right sidepanel">
+            
+            <ul style="position: relative; left: -15px;">
+                <div onclick="close1()" class="close-menu"><img src="./images/icon-close-menu.svg"></div>
+                <div class="clearfix"></div>
+                <li class="dropdown-2">
+                    <a href="#">Feature <span class="bottom-arrow">...</span></a>
+                    <ul class="dropdown-3">
+                        <li><a href="#"><img src="./images/icon-todo.svg">  To Do List</a></li>
+                        <li><a href="#"><img src="./images/icon-calendar.svg">  Calender</a></li>
+                        <li><a href="#"><img src="./images/icon-reminders.svg">  Reminders</a></li>
+                        <li><a href="#"><img src="./images/icon-planning.svg">   Planning</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-2">
+                    <a href="#">Company <span class="bottom-arrow">...</span></a>
+                    <ul class="dropdown-3">
+                        <li><a href="#"> History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </nav>
+ <!---->
+    <!---------------------->
+
+    <main>
+        <div class="column column-right">
+            <div class="float-right">
+                <img src="./images/image-hero-desktop.png" class="image-dekstop">
+                <div class="middle"><img src="./images/image-hero-mobile.png" class="image-mobile"></div>
+            </div>
+        </div>
+        <div class="column column-left">
+            <div class="font-base"><p>Make <br class="wak"> remote work</p></div>
+            <div class="font-rule">Get your team sync, no matter your location. Streamline processesc, create team rituals, and watch productivity soar.</div>
+            <div class="register learn">
+                Learn more
+            </div><div class="clearfix"></div>
+            <div class="name-off">
+                <ul>
+                    <li class="name-mar"><img src="./images/client-databiz.svg"></li>
+                    <li class="name-mar img-khusu"><img src="./images/client-audiophile.svg"></li>
+                    <li class="name-mar"><img src="./images/client-meet.svg"></li>
+                    <li class="name-mar"><img src="./images/client-maker.svg"></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="engine.js"></script>
+</html>
